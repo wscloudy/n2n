@@ -9,13 +9,21 @@ sudo apt install n2n
 目前n2n原作者很久没有更新了，所以已经不兼容当前的gcc了， 使用另外一个大神meyerd的n2n的版本
 
 git clone https://github.com/meyerd/n2n.git
+
 sudo apt install cmake libssl-dev
+
 cd n2n/n2n_v2
+
 mkdir build
+
 cd build
+
 cmake -build . ..
+
 make 
+
 sudo make install 
+
 现在安装完毕， 可以启动一个superServer
 
 supernode -l 8080 -v
