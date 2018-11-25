@@ -24,7 +24,7 @@ supernode -l 8080 -v
 edge -d n2n0 -c <网络名称> -k <密码> -a <本地IP> -l <服务器IP或地址>:8080 >/dev/null
 或者在rc.local里面设置
 
-(/usr/local/sbin/edge -d n2n0 -c <网络名称> -k <密码> -a <本地IP> -l <服务器IP或地址>:8080 &> /tmp/edge.log ) &
+/usr/local/sbin/edge -d n2n0 -c <网络名称> -k <密码> -a <本地IP> -l <服务器IP或地址>:8080 &> /tmp/edge.log
 ------------------------------------------------------------------------------------------------------------
 
 # N2N
